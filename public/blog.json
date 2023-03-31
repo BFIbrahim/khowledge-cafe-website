@@ -1,6 +1,11 @@
 [
     {
         "id" : "1",
-        "name" : ""
+        "authorName" : "BF Ibrahim",
+        "blogTitle" : "",
+        "coverImage" : "",
+        "authorImage" : "",
+        "readTime" : "",
+        "publishDate" : ""
     }
 ]

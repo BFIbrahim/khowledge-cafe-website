@@ -5,12 +5,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <div className='header'>
+        <nav className="navbar bg-body-tertiary">
+          <div className="container navigation">
+            <a className="navbar-brand fw-bold">Big Future Group</a>
 
-      </div>
+            <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.537113037.1680249376&semt=sph" alt="" />
+          </div>
+        </nav>
+      </div><hr />
 
-      <div className='main row'>
+      <div className='main row mt-3'>
         <div className='Blog col-md-8'>
           <Blog></Blog>
         </div>
