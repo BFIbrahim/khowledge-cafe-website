@@ -2,9 +2,36 @@
     {
         "id" : "1",
         "authorName" : "BF Ibrahim",
-        "blogTitle" : "",
+        "blogTitle" : "How to get your first job in BF Software LTD",
+        "coverImage" : "https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=626&ext=jpg&ga=GA1.2.537113037.1680249376&semt=sph",
+        "authorImage" : "https://img.freepik.com/free-photo/smiling-man-white-shirt-typing-text-message-scrolling-feed-social-network-using-smartphone-gray_171337-634.jpg?size=626&ext=jpg&ga=GA1.1.537113037.1680249376&semt=ais",
+        "readTime" : "",
+        "publishDate" : ""
+    },
+    {
+        "id" : "2",
+        "authorName" : "Arafat Islam",
+        "blogTitle" : "How to get your first job in BF Supper Market",
         "coverImage" : "",
-        "authorImage" : "",
+        "authorImage" : "https://img.freepik.com/free-photo/young-smiling-man-bearded-businessman-pointing-with-two-finger-upward_171337-9572.jpg?size=626&ext=jpg&ga=GA1.1.537113037.1680249376&semt=ais",
+        "readTime" : "",
+        "publishDate" : ""
+    },
+    {
+        "id" : "3",
+        "authorName" : "MD Siam",
+        "blogTitle" : "How to get your first job in BF Food LTD",
+        "coverImage" : "",
+        "authorImage" : "https://img.freepik.com/free-photo/happy-man-using-digital-tablet_329181-12725.jpg?size=626&ext=jpg&ga=GA1.1.537113037.1680249376&semt=ais",
+        "readTime" : "",
+        "publishDate" : ""
+    },
+    {
+        "id" : "4",
+        "authorName" : "Shagor Hossen",
+        "blogTitle" : "How to get your first job in BF Fashion LTD",
+        "coverImage" : "",
+        "authorImage" : "https://img.freepik.com/free-photo/young-man-holding-calculator-white-t-shirt-zip-front-black-hoodie-looking-serious-front-view_176474-45366.jpg?t=st=1680236506~exp=1680237106~hmac=f4d900172a0fdb6cdd36c1707304d31d13f8a95d48b32b7a638c192c0be10872",
         "readTime" : "",
         "publishDate" : ""
     }
