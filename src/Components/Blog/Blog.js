@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SingleProduct from '../SingleProduct/SingleProduct';
+import SingleBlog from '../SingleBlog/SingleBlog';
 
 const Blog = () => {
     const [blogs, setBlogs] = useState([])
@@ -13,10 +13,10 @@ const Blog = () => {
     return (
         <div>
             {
-                blogs.map(blog => <SingleProduct 
+                blogs.map(blog => <SingleBlog 
                     key = {blog.id}
                     Blogs = {blog}
-                ></SingleProduct>)
+                ></SingleBlog>)
             }
         </div>
     );

@@ -1,6 +1,5 @@
 import './App.css';
 import Blog from './Components/Blog/Blog';
-import SingleProduct from './Components/SingleProduct/SingleProduct';
 import SideCard from './Components/side card/SideCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -1,9 +1,12 @@
 import React from 'react';
+import './SideCard.css'
 
 const SideCard = () => {
     return (
         <div>
-            <h1>This Is Side card</h1>
+            <div className='readTime'>
+                <h5>Spent Time On read: <span>0</span></h5>
+            </div>
         </div>
     );
 };
