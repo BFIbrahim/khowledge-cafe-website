@@ -1,0 +1,7 @@
+.SingleQuestion{
+    background-color: rgba(126, 5, 5, 0.171);
+    border: 2px solid rgb(112, 1, 1);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}

@@ -7,7 +7,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([])
     const [singleBlog, setsingleBlog] = useState([])
     const [addedBlogs, setAddedBLog] = useState([])
-    const [newreadTime, setnewReadTime] = useState([])
+    const [newreadTime, setnewReadTime] = useState(0)
 
     useEffect(() => {
         fetch('blog.json')
@@ -45,7 +45,7 @@ const Blog = () => {
 
             <div className='sidecard col-md-4'>
                 <div className='readTime'>
-                    <h5>Spent Time On read: {newreadTime}</h5>
+                    <h5>Spent Time On read: {newreadTime} min read</h5>
                 </div>
 
                 <div className='bookmark-list-container'>
