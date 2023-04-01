@@ -1,30 +1,28 @@
 import './App.css';
 import Blog from './Components/Blog/Blog';
+import Navigation from './Components/Navigation/Navigation';
 import SideCard from './Components/side card/SideCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App container">
-      <div className='header'>
-      <nav className="navbar bg-body-tertiary">
-                <div className="container navigation">
-                    <a className="navbar-brand fw-bold">Big Future Group</a>
+        <Navigation></Navigation>
 
-                    <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.537113037.1680249376&semt=sph" alt="" />
-                </div>
-            </nav>
-      </div><hr />
+        <Blog></Blog>
 
-      <div className='main row mt-3'>
+      {/* <div className='main row mt-3'>
         <div className='Blog col-md-8'>
-          <Blog></Blog>
+          <Blog addReadTime = {addReadTime}></Blog>
         </div>
 
         <div className='sideCard col-md-4'>
           <SideCard></SideCard>
         </div>
-      </div>
+      </div> */}
+
+
+
     </div>
   );
 }

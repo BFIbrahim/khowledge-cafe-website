@@ -1,8 +1,12 @@
 import React from 'react';
 import './SingleBlog.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const SingleProduct = (props) => {
-    console.log(props.Blogs)
+
+    const addBlog = props.addBlogToSideCard
+
     return (
         <div className='Blogs-container'>
             <img src={props.Blogs.coverImage} alt="" />
@@ -16,13 +20,13 @@ const SingleProduct = (props) => {
                 </div>
 
                 <div>
-                    <p>{props.Blogs.readTime} min read</p>
+                    <p>{props.Blogs.readTime} min read <button className='btn' onClick={() => addBlog(props.Blogs, props.Blogs.blogTitle, props.Blogs.readTime) }><FontAwesomeIcon icon={faBookmark}/></button></p>
                 </div>
             </div>
 
             <div className='blog-title mb-2'>
                 <h4>{props.Blogs.blogTitle}</h4>
-                <a href="#">Mark As Read</a>
+                <button className='btn'><a href="#">Mark As Read</a></button>
             </div>
         </div>
     );

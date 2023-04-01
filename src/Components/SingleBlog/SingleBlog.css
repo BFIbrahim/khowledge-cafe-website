@@ -1,5 +1,5 @@
 .Blogs-container{
-    width: 80%;
+    width: 100%;
     border-bottom: 1px solid #ddd;
     margin-bottom: 50px;
 }
@@ -22,5 +22,21 @@
     
 }
 .blog-title{
+    text-align: start;
+}
+
+.readTime{
+    border: 2px solid #6047EC;
+    padding: 5px;
+    border-radius: 5px;
+    color: #6047EC;
+    background-color: #6047ec2c;
+}
+
+.bookmark-list-container{
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 15px;
     text-align: start;
 }
