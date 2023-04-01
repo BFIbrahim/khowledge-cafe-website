@@ -7,7 +7,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([])
     const [singleBlog, setsingleBlog] = useState([])
     const [addedBlogs, setAddedBLog] = useState([])
-    const [readTime, setReadTime] = useState([])
+    const [newreadTime, setnewReadTime] = useState([])
 
     useEffect(() => {
         fetch('blog.json')
@@ -15,7 +15,13 @@ const Blog = () => {
             .then(data => setBlogs(data))
     }, [])
 
-    const addBlogToSideCard = (Blog, blogTitle, readTime) => {
+    const setReadTime = (readTime) => {
+        
+        const result = JSON.parse(newreadTime + readTime)
+        setnewReadTime(result)
+    }
+
+    const addBlogToSideCard = (Blog, blogTitle) => {
         const newCard = [...singleBlog, Blog]
         setsingleBlog(newCard)
 
@@ -32,13 +38,14 @@ const Blog = () => {
                         key={blog.id}
                         Blogs={blog}
                         addBlogToSideCard={addBlogToSideCard}
+                        setReadTime = {setReadTime}
                     ></SingleBlog>)
                 }
             </div>
 
             <div className='sidecard col-md-4'>
                 <div className='readTime'>
-                    <h5>Spent Time On read: <span>0</span></h5>
+                    <h5>Spent Time On read: {newreadTime}</h5>
                 </div>
 
                 <div className='bookmark-list-container'>

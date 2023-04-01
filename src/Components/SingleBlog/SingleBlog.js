@@ -6,6 +6,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const SingleProduct = (props) => {
 
     const addBlog = props.addBlogToSideCard
+    const setReadTime = props.setReadTime
 
     return (
         <div className='Blogs-container'>
@@ -26,7 +27,7 @@ const SingleProduct = (props) => {
 
             <div className='blog-title mb-2'>
                 <h4>{props.Blogs.blogTitle}</h4>
-                <button className='btn'><a href="#">Mark As Read</a></button>
+                <button className='btn' onClick={() => setReadTime(props.Blogs.readTime)}><a href="#">Mark As Read</a></button>
             </div>
         </div>
     );
